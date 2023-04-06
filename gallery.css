@@ -220,4 +220,10 @@
       padding-top: 7%;
     }
 
-    
+    #c{
+      object-fit: cover;
+    }
+    .cc{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
