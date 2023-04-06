@@ -78,18 +78,7 @@
       .btn:hover{
         transition: 0.5s;
       }
-        .img_parallax{
-  background-image: url("https://lh3.googleusercontent.com/tYBFoGmABIHRcKJC08rzoYwza7UTjQShA4DNWughH0eMOTGDeK9KcP_QAW9iWqybHv3u1dxAlgRR052VqtHJPs0gYlMDotH-GBoTs3ZciqR7wJ-vhLPE6JmvmlAEW_wGtwuuQmnZ=w2400");
-
-
-min-height: 500px;
-
-
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-max-width: 100%;}
+        
 
 
 
@@ -140,34 +129,52 @@ max-width: 100%;}
        
             </header>
            
-            <div class="dis">
-              <div class="img_parallax"></div>
-              <div class="textimg">
-              <p class="display1">Airbnb</p>
-              <br>
-              
-              
-              </div>
-          </div>
-         
-            <h1 class="h1 text-center p-5" id="h">stay blellblg bleh ble: fhro</h1>
-            <div class="grid-container">
-            <div class="grid-item" id="font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula dolor ante, eget vestibulum sapien ultricies ac. Proin et ligula non ante elementum rhoncus. Suspendisse pharetra dignissim velit, non hendrerit orci ornare non. Vestibulum posuere nisl odio, vel porta nunc lobortis a. Ut at mauris in odio porttitor consectetur. Morbi mollis consequat eleifend. Fusce dapibus sapien vel odio fermentum volutpat. Vivamus sed volutpat quam. Nam non dui purus. Sed posuere semper nibh, eu auctor eros facilisis nec. Morbi dolor velit, aliquam sit amet lacus quis, molestie tempus ipsum. Maecenas id massa nec dolor porttitor malesuada. Suspendisse sed consectetur libero, nec sollicitudin magna. Quisque iaculis nec dui sit amet aliquet.</div>
-            <div class="grid-item" id="font">Pellentesque non sem purus. Praesent interdum eleifend suscipit. Nullam vitae tortor ultrices, fringilla diam in, accumsan tellus. Nulla malesuada lectus ut dui tempor tempus. Quisque commodo tincidunt tortor sit amet eleifend. Suspendisse potenti. Vestibulum rhoncus, neque at sollicitudin condimentum, nulla mauris efficitur erat, vel ultrices urna odio vel purus. Sed facilisis erat eu ullamcorper convallis.<div class="text-center  top-50 p-4">
-              <a href="https://airbnb.com/h/goldstream-heights-getaway"><button  href="https://airbnb.com/h/goldstream-heights-getaway" type="button" id="b1"class="btn btn-outline-dark btn-lg">click here</button></a>
-              
-          
-          </div></div>
-            </div>
             
-          
-           
+            <div class="new-div"><div class="first">
+              <img class="iii" id="ii" src="https://a0.muscache.com/im/pictures/miso/Hosting-53204126/original/90a8104e-3da2-4b4d-b1f8-79560685291f.jpeg?im_w=1200" href="">
+              <div class="topleft ">Stay in a 2-bedroom detached carriage house with beautiful views.</div>
+              <div class="text-center">
+              <svg type="button" onclick="smoothScroll(document.getElementById('second'))" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="button bi bi-arrow-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+              </svg>
+              </div>
+              </div>
+            </div>
+            <div class="containing">
+            <div class="second" id="second">
+              
+              <img class="iii" id="i2"src="https://a0.muscache.com/im/pictures/miso/Hosting-53204126/original/d1bb2323-730f-4d0d-8d43-4ba5c6371f55.jpeg?im_w=1200">
+              <div><a href="https://airbnb.com/h/goldstream-heights-getaway"><button  href="https://airbnb.com/h/goldstream-heights-getaway" type="button" id="b1"class="btn btn-dark btn-lg">Book Your Stay!</button></a></div>
+            </div>
+          </div>
 
 
 
 
             
             <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+            <script>window.smoothScroll = function(target) {
+              var scrollContainer = target;
+              do { //find scroll container
+                  scrollContainer = scrollContainer.parentNode;
+                  if (!scrollContainer) return;
+                  scrollContainer.scrollTop += 1;
+              } while (scrollContainer.scrollTop == 0);
+          
+              var targetY = 0;
+              do { //find the top of target relatively to the container
+                  if (target == scrollContainer) break;
+                  targetY += target.offsetTop;
+              } while (target = target.offsetParent);
+          
+              scroll = function(c, a, b, i) {
+                  i++; if (i > 30) return;
+                  c.scrollTop = a + (b - a) / 30 * i;
+                  setTimeout(function(){ scroll(c, a, b, i); }, 20);
+              }
+              // start scrolling
+              scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+          }</script>
     </body>
     
 <footer class="footer-distributed">
