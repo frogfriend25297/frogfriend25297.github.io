@@ -273,3 +273,11 @@
       line-height: 1.5;
       border-radius: .2rem;
   }
+  .h{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color,inherit);
+    font-size: x-large;
+  }
