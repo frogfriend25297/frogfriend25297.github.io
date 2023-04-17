@@ -282,12 +282,41 @@
     font-size: x-large;
   }
   #textb{
-    background-color: #baffc9;
+    background-color: white;
     
   }
   #im1{
-    background-color: #bae1ff;
+    background-color: white;
   }
   #im2{
-    background-color: #E0BBE4;
+    background-color: white;
+  }
+  #card{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    font-weight: bold;
+  }
+  #btt{
+    position: absolute;
+    
+    
+    font-size: 3vw;
+    color:black;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    border: none;
+    padding: 8px 16px;
+  }
+  #bt:hover {
+    background-color: #baffc9;
+    color: white;
+  }
+  #btt:hover {
+    background-color: #baffc9;
+    color: white;
+  }
+  .buttonn{
+    margin-bottom: 10vh;
+    margin-top: 5%;
   }
