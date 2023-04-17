@@ -281,3 +281,13 @@
     color: var(--bs-heading-color,inherit);
     font-size: x-large;
   }
+  #textb{
+    background-color: #baffc9;
+    
+  }
+  #im1{
+    background-color: #bae1ff;
+  }
+  #im2{
+    background-color: #E0BBE4;
+  }
