@@ -307,16 +307,22 @@
     border-radius: 12px;
     border: none;
     padding: 8px 16px;
+    margin-bottom: 5%;
   }
   #bt:hover {
     background-color: #baffc9;
     color: white;
   }
   #btt:hover {
-    background-color: #baffc9;
+    background-color: #338f47;
     color: white;
   }
   .buttonn{
     margin-bottom: 10vh;
+    
+  }
+  #h{
     margin-top: 5%;
+    
+    margin-bottom: 5%;
   }
