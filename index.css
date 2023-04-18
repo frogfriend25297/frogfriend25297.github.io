@@ -238,23 +238,15 @@ body {
     margin: auto;
     left: 50%;
     margin-top: 50%;
-    font-size: 7vh;
+    font-size: 7vw;
     color: white;
-    text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+   
 }
 .display2{
     margin: 0 auto;
-    
+    font-size: 4vw;
     color:white;
-    text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+    
     
 
 }
@@ -367,11 +359,11 @@ body {
   padding: 8px 16px;
 }
 #bt:hover {
-  background-color: #338f47;
+  background-color: #1b5a28;
   color: white;
 }
 #btt:hover {
-  background-color: #338f47;
+  background-color: #1b5a28;
   color: white;
 }
 #imi{
