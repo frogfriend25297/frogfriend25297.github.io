@@ -191,6 +191,11 @@
     width: 100%;
     z-index: 11;
   }
+  @media screen and (min-width: 1366px){
+    #h1{
+      padding-top: 20%;
+    }
+  }
  .section1{
   padding-top:9.5%;
   position: relative;
