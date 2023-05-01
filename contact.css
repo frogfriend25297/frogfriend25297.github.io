@@ -236,7 +236,7 @@
       outline: none;
     }
     .contact-form .input-text:focus + .label,
-    .contact-form .input-text.not-empty + .label {
+    .contact-form  .input-text.not-empty + .label{
       -webkit-transform: translateY(-24px);
               transform: translateY(-24px);
     }
@@ -280,4 +280,25 @@
       padding-bottom: 10px;
          color: black;
         
+    }
+
+    .success{
+      padding-left: 5%;
+      
+      font-size: 8vw;
+    }
+    .suimg{
+      width: 100%;
+      
+      
+    }
+    .su{
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom: 5%;
+    }
+    .succes{
+      font-size: 6vw;
+      padding-left: 5%;
+      padding-bottom: 5%;
     }
