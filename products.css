@@ -9,64 +9,84 @@ body{
     background-color: white;
 }
 .popup{
-    background-color: #219e68;
-    color: white;
-    width: 50vw;
-    height: 50vh;
-    padding: 30px 40px;
-    position: fixed;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-    border-radius: 8px;
-    font-family: "Poppins",sans-serif;
-    display: none;
-    text-align: center;
-    z-index: 10;
-    
-    
+  background-color: #219e68;
+  color: white;
+  width: 50vw;
+  height: 45vh;
+  padding: 30px 40px;
+  position: fixed;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 8px;
+  font-family: "Poppins",sans-serif;
+  display: none;
+  
+  z-index: 10;
+  
+  
+}
+
+.svgg{
+  width: 10vw;
+  height: 10vh;
+  z-index: 11; 
+  left: 320%;
+  top: 100%;
+ 
+  float: right;
+  margin-top: 0;
+}
+.ppp{
+
+  width: 100%;
+  
 }
 .titlep{
-  font-size: 4vw;
+font-size: 4vw;
+left:37%;
+position: relative;
 }
 .popup button{
-    display: block;
-    width:3vw;
-    height: 3vh;
-    margin:  0 0 20px auto;
-    background-color: transparent;
-    font-size: 3vw;
-    color: #c5c5c5;
-    border: none;
-    outline: none;
-    cursor: pointer;
+  display: block;
+  width:3vw;
+  height: 3vh;
+  
+  background-color: transparent;
+  font-size: 3vw;
+  color: #c5c5c5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  
 }
 .popup p{
-    font-size: 2vw;
-    text-align: justify;
-    margin: 20px 0;
-    line-height: 25px;
+  font-size: 2vw;
+  text-align: justify;
+  margin: 20px 0;
+  line-height: 25px;
+  
 }
-.a{
-    display: block;
-    width: 10vw;
-    height: 4.5vh;
-    position: relative;
-    margin: 10px auto;
-    text-align: center;
-    background-color: white;
-    color:black;
-    text-decoration: none;
-    padding: 5px 0;
-    border-radius: 12px;
-    transition-duration: 0.4s;
+.as{
+  display: block;
+  width: 10vw;
+  height: auto;
+  position: relative;
+  margin: 10px auto;
+  text-align: center;
+  background-color: white;
+  color:black;
+  text-decoration: none;
+  padding: 5px 0;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  text-align: center;
 }
+
 .a:hover {
-  background-color: #1b5a28;
-  color: white;
+background-color: #1b5a28;
+color: white;
 }
-
-
 
 
 .footer-distributed{

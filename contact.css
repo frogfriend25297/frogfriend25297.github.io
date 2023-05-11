@@ -283,9 +283,9 @@
     }
 
     .success{
-      padding-left: 5%;
       
-      font-size: 8vw;
+      text-align: center;
+      font-size: 7vw;
     }
     .suimg{
       width: 100%;
@@ -298,7 +298,8 @@
       padding-bottom: 5%;
     }
     .succes{
-      font-size: 6vw;
-      padding-left: 5%;
+      font-size: 5vw;
+      text-align: center;
+    font-weight: lighter;
       padding-bottom: 5%;
     }
